@@ -25,7 +25,3 @@ jobs:
         id: fmt
         run: terraform fmt --recursive -check
         continue-on-error: true
-
-      - name: Terraform Validate
-        id: validate
-        run: terraform validate -no-color
